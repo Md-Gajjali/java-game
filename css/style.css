@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/1200x/24/b4/a1/24b4a1a3db937ab7254575f70922a103.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* FirstUI */
+.styleUi{
+    border: none;
+    margin: auto;
+    width: 600px;
+    height: 540px;
+    padding: 50px;
+    text-align: center;
+    background:transparent;
+    border: none solid rgb(231, 231, 56);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    margin-top: 100px;
+}
+
+.FirstUI h1 {
+    font-size: 44px;
+}
+
+.FirstInput{
+    width:300px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 2px solid rgba(231, 186, 5, 0.711);
+    background: transparent;
+}
+
+
+.FirstBtn{
+    width: 120px;
+    height: 50px;
+    margin: 40px;
+    font-size: 24px;
+    border: 2px solid rgb(224, 224, 33);
+    border-radius: 10px;
+    background-color: rgba(255, 217, 5, 0.916);
+}
+
+.FirstBtn:hover{
+    background-color: #ff0202;
+    color: white;
+    border: none;
+}
+
+/* FirstUi */
+
+/* UI display nane */
+
+.secondUi{
+    display: none;
+}
+
+.ThirdUi{
+    display: none;
+}
+
+.FourUi{
+    display: none;
+}
+
+.FirstError{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+}
+
+/* Ui display nane */
+
+/* secondUi */
+
+
+.secondUi h1 {
+    font-size: 44px;
+}
+
+.secondInput{
+    width:300px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 2px solid rgba(231, 186, 5, 0.711);
+    background: transparent;
+}
+
+.secondBtn{
+    width: 120px;
+    height: 50px;
+    margin: 40px;
+    font-size: 24px;
+    border: 2px solid rgb(224, 224, 33);
+    border-radius: 10px;
+    background-color: rgba(255, 217, 5, 0.916);
+}
+
+.secondBtn:hover{
+    background-color: #ff0202;
+    color: white;
+    border: none;
+}
+
+.secondError{
+    font-size: 24px;
+    color: red;
+}
+
+/* secondUi */
+
+
+/* ThirdUi */
+
+
+.ThirdUi h1 {
+    font-size: 44px;
+}
+
+.ThirdInput{
+    width:300px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: 2px solid rgba(231, 186, 5, 0.711);
+    background: transparent;
+}
+
+.ThirdBtn{
+    width: 120px;
+    height: 50px;
+    margin: 40px;
+    font-size: 24px;
+    border: 2px solid rgb(224, 224, 33);
+    border-radius: 10px;
+    background-color: rgba(255, 217, 5, 0.916);
+}
+
+.ThirdBtn:hover{
+    background-color: #ff9e02;
+    color: white;
+    border: none;
+}
+
+.ThirdError{
+    color: red;
+    font-size: 24px;
+}
+
+.counterChance{
+    color: red;
+    font-size: 24px;
+}
+
+
+.counter{
+    width: 90px;
+    height: 70px;
+    background:transparent;
+    border: none solid rgb(56, 231, 222);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    font-size: 20px;
+}
+
+/* Third */
