@@ -42,7 +42,7 @@ secondBtn.addEventListener('click', () => {
 
   if (secondInput.value == '') {
     secondError.innerHTML = 'please enter a number 😒'
-  } else if (! secondValue) {
+  } else if (!secondValue) {
     secondError.innerHTML = 'only number are allowed'
   }else if (secondInput.value > 10 || secondInput.value < 0  ) {
     secondError.innerHTML='please inter a number between 1 to 10'
