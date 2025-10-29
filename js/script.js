@@ -41,14 +41,15 @@ secondBtn.addEventListener('click', () => {
   let secondValue = Number(secondInput.value)
 
   if (secondInput.value == '') {
-    secondError.innerHTML = 'please enter a number'
+    secondError.innerHTML = 'please enter a number 😒'
   } else if (! secondValue) {
     secondError.innerHTML = 'only number are allowed'
-  } else {
+  }else if (secondInput.value > 0 && secondInput.value >= 10) {
+    secondError.innerHTML='please inter a number between 1 to 10'
+  }else {
     secondUi.style.display = 'none'
     ThirdUi.style.display = 'block'
-    ThirdHeading.innerHTML =
-      'Okay ' + FirstInput.value + ', now guess the number!'
+    ThirdHeading.innerHTML ='Okay ' + FirstInput.value + ', now guess the number!'
   }
 })
 
