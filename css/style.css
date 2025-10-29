@@ -169,12 +169,13 @@ body{
 .counter{
     width: 90px;
     height: 70px;
-    background:transparent;
+    /* background:transparent; */
+    background-color: black;
     border: none solid rgb(56, 231, 222);
     border-radius: 10px;
     backdrop-filter: blur(20px);
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 /* Third */
